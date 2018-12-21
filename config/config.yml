@@ -1,0 +1,31 @@
+- desired_caps_info:
+    appPackage: com.langlib.ncee
+    appActivity: com.langlib.ncee.ui.main.SplashActivity
+
+- headers:
+    Host: appncee.langlib.com
+
+- log-Cfg:
+    file_name: uname_lists.log
+    backup: 5
+    console_level: DEBUG
+    file_level: DEBUG
+    pattern:  '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+- sql-info:
+    uname: tester
+    pwd: 5211314qazqwe
+    host: 192.168.1.152
+    port: 3306
+    db: LangLibCEE
+
+- mail_cfg:
+    user: 185xxx4@163.com
+    password: xxxxxxxxx
+    smtp: smtp.163.com
+    revivers:
+        - 185xxxxx@163.com
+        - 105xxxx@qq.com
+    subject: LangLib_CEE_API_Test_Result
+    content:
+        - <h1>LangLib_CEE_API_Test_Result</h1>

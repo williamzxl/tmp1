@@ -1,0 +1,9 @@
+from testcase.interface.sysListening.word_dict.get_word_dict_all_answer import GetAllWordDictAnswers
+from testcase.interface.sysListening.word_trans.get_word_trans_all_answer import GetAllWordTransAnswers
+from testcase.interface.sysListening.short_conv.get_short_conv_all_answer import GetAllShortConvAnswers
+from testcase.interface.sysListening.long_conv.get_long_conv_all_answer import GetAllLongConvAnswers
+from testcase.interface.sysListening.sen_fill.get_sen_fill_all_answer import GetAllSenFillAnswers
+
+
+class AllListenInterface(GetAllWordDictAnswers,GetAllWordTransAnswers,GetAllShortConvAnswers,GetAllLongConvAnswers,GetAllSenFillAnswers):
+    pass

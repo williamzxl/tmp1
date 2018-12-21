@@ -1,0 +1,53 @@
+- common:
+    appPackage: com.langlib.ncee
+    Host: appncee.langlib.com
+
+- vivox6:
+    desired_caps:
+        url: http://127.0.0.1:4723/wd/hub
+        platformName: Android
+        platformVersion: '6.0.1'
+        deviceName: 33ea8e00
+        udid: 33ea8e00
+        appPackage: com.langlib.ncee
+        appActivity: com.langlib.ncee.ui.main.SplashActivity
+        apk_file: 38b40
+        background_time: 5
+        unicodeKeyboard: True
+        resetKeyboard: True
+    headers:
+        Platform: Android
+        appkey: CEE_AA8F55B916AB
+        appversion: '10000005'
+        AppSecret: 3DB5159C-EB1E-47FE-8584-47115EF5E443
+        App: cee
+        accesstoken: 2b9be423-b9ad-4d0e-ade3-ef01c594329d
+        Host: appncee.langlib.com
+        Connection: Keep-Alive
+        Accept-Encoding: gzip
+        User-Agent: okhttp/3.11.0
+
+- xiaomi3s:
+    des:
+        url: http://127.0.0.1:4723/wd/hub
+        platformName: Android
+        platformVersion: '6.0.1'
+        deviceName: 33ea8e00
+        udid: 33ea8e00
+        appPackage: com.langlib.ncee
+        appActivity: com.langlib.ncee.ui.main.SplashActivity
+        apk_file: 38b40
+        background_time: 5
+        unicodeKeyboard: True
+        resetKeyboard: True
+    headers:
+        Platform: Android
+        appkey: CEE_AA8F55B916AB
+        appversion: '10000005'
+        AppSecret: 3DB5159C-EB1E-47FE-8584-47115EF5E443
+        App: cee
+        accesstoken: 2b9be423-b9ad-4d0e-ade3-ef01c594329d
+        Host: appncee.langlib.com
+        Connection: Keep-Alive
+        Accept-Encoding: gzip
+        User-Agent: okhttp/3.11.0

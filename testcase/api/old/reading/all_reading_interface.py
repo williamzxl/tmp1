@@ -1,0 +1,8 @@
+from testcase.interface.reading.sen_analysis.get_all_sen_analysis_answer import GetAllSenAnAAnswers
+from testcase.interface.reading.section_train.get_all_section_train import GetAllSectionTrainAnswers
+from testcase.interface.reading.cloze_test.get_all_cloze_test_answer import GetAllClozeTestAnswers
+from testcase.interface.reading.sen_cloze75.get_all_sc_75_answer import GetAllSC75Answers
+
+
+class AllReadInterface(GetAllSenAnAAnswers, GetAllSectionTrainAnswers,GetAllClozeTestAnswers,GetAllSC75Answers):
+    pass

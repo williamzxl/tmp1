@@ -1,0 +1,12 @@
+[
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_0_assert_study_type",
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_1_words",
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_2_grammer",
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_3_listen",
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_4_read",
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_5_write",
+  "test_02_create_user_schedule_3.py::TestCreateUserSchedule::test_0_create_user_schedule_succeed",
+  "test_02_create_user_schedule_3.py::TestCreateUserSchedule::test_1_create_user_schedule_not_succeed",
+  "test_03_start_learning_3.py::TestStartLearing::test_0_start_learing",
+  "test_04_finish_all_task_3.py::TestStartToFinishLearing::test_0_check_finish_all_task"
+]

@@ -1,0 +1,5 @@
+{
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_0_assert_study_type": true,
+  "test_01_pay_measure_3.py::TestPayMeasure2::test_4_read": true,
+  "test_02_create_user_schedule_3.py::TestCreateUserSchedule::test_0_create_user_schedule_succeed": true
+}
